@@ -16,9 +16,26 @@
 }
 #form-title{
     color: white;
+    font-family:'Bowlby One SC', cursive;
+    font-size: 3.125rem;
+    letter-spacing: 0.05em;
+
 
 }
 span{
     color: red;
+
+}
+
+#form-description{
+    font-size: 1.4rem;
+    font-family: 'Sorts Mill Goudy', serif;
+
+
+
+}
+
+#form-header{
+    text-align: center;
 
 }
