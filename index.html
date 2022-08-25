@@ -27,6 +27,53 @@
             <h1 id="form-title">NET<span>FLlX</span></h1>
             <h3 id="form-description">Thank you signing up to Netflix. Tell me more about yourself.</h3>
         </header>
+        <section id="survey-form-container">
+            <div id="survey-form">
+                <form action="result.html" method="GET" target="_blank">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="enter your name"/>
+                    </div>
+                    <div>
+                        <label for="age">Age</label>
+                        <input type="number" name="age" id="age" placeholder="age"/>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="enter your email"/>
+                    </div>
+                    <div>
+                        <label for="content">Content Type</label>
+                        <select type="" name="content" id="dropdown">
+
+                            <option value="Movie">Movie</option>
+                            <option value="Series" selected >Series</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Movie Type</label>
+                        <input type="checkbox" id="first-check" name="mavie1" value="comedy">
+                        <label for="first-check">Comedy</label>
+                        <input type="checkbox" id="second-check" name="mavie2" value="action">
+                        <label for="second-check">Action</label>
+                        <input type="checkbox" id="third-check" name="mavie3" value="romance">
+                        <label for="third-check">Romance</label>
+                    </div>
+                    <div>
+                        <label for="gender">Gender</label>
+                        <input type="radio" id="first-radio" name="gender" value="male">
+                        <label for="first-radio">Male</label>
+                        <input type="radio" id="first-radio" name="gender" value="female">
+                        <label for="second-radio">Female</label>
+                        <input type="radio" id="third-radio" name="gender" value="other">
+                        <label for="first-radio">Other</label>
+                    </div>
+                </form>
+
+            </div>
+
+        </section>
     </div>
     
 </body>
