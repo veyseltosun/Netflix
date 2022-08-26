@@ -24,26 +24,30 @@
 <body>
     <div id="form-container">
         <header id="form-header">
-            <h1 id="form-title">NET<span>FLlX</span></h1>
+            <h1 id="form-title">NET<span>FLIX</span></h1>
             <h3 id="form-description">Thank you signing up to Netflix. Tell me more about yourself.</h3>
         </header>
         <section id="survey-form-container">
             <div id="survey-form">
                 <form action="result.html" method="GET" target="_blank">
-                    <div>
+                    <div class="input-box">
                         <label for="name">Name</label>
+                        <br>
                         <input type="text" name="name" id="name" placeholder="enter your name"/>
                     </div>
-                    <div>
+                    <div class="input-box">
                         <label for="age">Age</label>
+                        <br>
                         <input type="number" name="age" id="age" placeholder="age"/>
                     </div>
-                    <div>
+                    <div class="input-box">
                         <label for="email">Email</label>
+                        <br>
                         <input type="email" name="email" id="email" placeholder="enter your email"/>
                     </div>
-                    <div>
+                    <div class="input-box">
                         <label for="content">Content Type</label>
+                        <br>
                         <select type="" name="content" id="dropdown">
 
                             <option value="Movie">Movie</option>
@@ -51,23 +55,41 @@
 
                         </select>
                     </div>
-                    <div>
+                    <div class="input-box">
                         <label for="">Movie Type</label>
+                        <br>
                         <input type="checkbox" id="first-check" name="mavie1" value="comedy">
                         <label for="first-check">Comedy</label>
+                        <br>
                         <input type="checkbox" id="second-check" name="mavie2" value="action">
                         <label for="second-check">Action</label>
+                        <br>
                         <input type="checkbox" id="third-check" name="mavie3" value="romance">
                         <label for="third-check">Romance</label>
+                        <br>
                     </div>
-                    <div>
+                    <div class="input-box">
                         <label for="gender">Gender</label>
+                        <br>
                         <input type="radio" id="first-radio" name="gender" value="male">
                         <label for="first-radio">Male</label>
+                        <br>
                         <input type="radio" id="first-radio" name="gender" value="female">
                         <label for="second-radio">Female</label>
+                        <br>
                         <input type="radio" id="third-radio" name="gender" value="other">
                         <label for="first-radio">Other</label>
+                        <br>
+                    </div>
+                    <div class="input-box">
+                        <label for="feedback">Feed back</label>
+                        <br>
+                        <textarea name="message" id="feedback" cols="30" rows="10" placeholder="any comment" style="resize: none;"></textarea>
+                    </div>
+                    <div id="form-submit">
+
+                        <button type="submit" id="form-button"> Send </button>
+
                     </div>
                 </form>
 
